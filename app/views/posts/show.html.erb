@@ -1,0 +1,13 @@
+<h1 class="title">
+	Title:
+	<%= @post.title %>
+</h1>
+
+<p class="date">
+	Submitted at <%= @post.created_at=Time.now %>
+</p>
+
+<p>
+	Post:
+	<%= @post.body %>
+</p>
